@@ -31,10 +31,18 @@ TODO: Write development instructions here
 ## Contributing
 
 1. Fork it ( https://github.com/Cruder/Opali/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
+2. Create your feature branch (git checkout -b [TYPE]/my-branch)
 3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
+4. Push to the branch (git push origin [TYPE]/my-branch)
 5. Create a new Pull Request
+
+[TYPE] is the type of your branch.
+
+[TYPE] can be:
+- feature
+- enhance
+- fix
+- refactor
 
 ## Contributors
 
