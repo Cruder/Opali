@@ -10,7 +10,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   Opali:
-    github: [your-github-name]/Opali
+    github: Cruder/Opali
 ```
 
 
@@ -30,12 +30,21 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/Opali/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
+1. Fork it ( https://github.com/Cruder/Opali/fork )
+2. Create your feature branch (git checkout -b [TYPE]/my-branch)
 3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
+4. Push to the branch (git push origin [TYPE]/my-branch)
 5. Create a new Pull Request
+
+[TYPE] is the type of your branch.
+
+[TYPE] can be:
+- feature
+- enhance
+- fix
+- refactor
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) alex-lairan - creator, maintainer
+- [alex-lairan](https://github.com/alex-lairan) alex-lairan - creator, maintainer
+- [amelie-certin](https://github.com/amelie-certin) amelie-certin - creator, maintainer
