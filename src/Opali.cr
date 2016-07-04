@@ -1,6 +1,7 @@
 require "http/server"
 require "json"
 require "./Opali/*"
+require "./Opali/http/*"
 
 module Opali
   class Server
@@ -14,7 +15,6 @@ module Opali
     end
 
     def start
-      pp @server
       @server.listen
     end
   end
