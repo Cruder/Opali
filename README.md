@@ -1,6 +1,9 @@
 # Opali
 
-TODO: Write a description here
+Opali is an Opensource API server.
+
+With Opali, you will be able to create your API quickly and safely.
+
 
 ## Installation
 
@@ -21,17 +24,20 @@ dependencies:
 require "Opali"
 ```
 
-
-TODO: Write usage instructions here
+```crystal
+options = { port: 8080 }
+Opali::Server.new(options).start
+```
 
 ## Development
 
-TODO: Write development instructions here
+Please comme to [taigo.io](https://tree.taiga.io/project/alex-lairan-opali/)
+to see our tasks before create your own.
 
 ## Contributing
 
 1. Fork it ( https://github.com/Cruder/Opali/fork )
-2. Create your feature branch (git checkout -b [TYPE]/my-branch)
+2. Create your feature branch (git checkout -b [TYPE]/[TAIGA-ID]/my-branch)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin [TYPE]/my-branch)
 5. Create a new Pull Request
@@ -43,6 +49,9 @@ TODO: Write development instructions here
 - enhance
 - fix
 - refactor
+- doc
+
+[TAIGA-ID] is the id of the task on taiga.io
 
 ## Contributors
 
