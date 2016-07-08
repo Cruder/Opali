@@ -31,7 +31,7 @@ Opali::Server.new(options).start
 
 ## Development
 
-Please comme to [taigo.io](https://tree.taiga.io/project/alex-lairan-opali/)
+Please comme to [taiga.io](https://tree.taiga.io/project/alex-lairan-opali/)
 to see our tasks before create your own.
 
 ## Contributing
