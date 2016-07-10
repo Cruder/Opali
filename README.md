@@ -39,7 +39,7 @@ to see our tasks before create your own.
 1. Fork it ( https://github.com/Cruder/Opali/fork )
 2. Create your feature branch (git checkout -b [TYPE]/[TAIGA-ID]/my-branch)
 3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin [TYPE]/my-branch)
+4. Push to the branch (git push origin [TYPE]/[TAIGA-ID]/my-branch)
 5. Create a new Pull Request
 
 [TYPE] is the type of your branch.
