@@ -2,6 +2,7 @@ require "http/server"
 require "json"
 require "./Opali/*"
 require "./Opali/http/*"
+require "./Opali/base/*"
 
 module Opali
   class Server
@@ -13,8 +14,7 @@ module Opali
         context.response.content_type = "application/json"
         response = { code: Opali::HTTP::Codes::LIST[:ok], status: :ok,
                      path: context.request.path }
-        context.response.print response.to_json
-
+        context.response.print controller_call("UserController", context.request, "index")
         puts "Server respond on #{(Time.now - time_before).hash / 10}µs "\
              "on route \"#{context.request.path}\""
       end
