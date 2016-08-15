@@ -1,5 +1,12 @@
-macro controller_call(controller, params, name)
-  {{controller.id}}.new({{params}}).{{name.id}}()
+macro controller_call(controller, params, method)
+  puts "-----------------------------"
+  teste = {{controller}}.class
+  pp teste.class
+  pp {{params}}.class
+  pp {{controller.id}}
+  puts "-----------------------------"
+  teste.new({{params}}).index
+  # {{controller}}.new({{params}}).{{method.id}}()
 end
 
 module Opali
@@ -26,3 +33,9 @@ module Opali
     end # Controller
   end # Base
 end # Opali
+
+# print "controller_call\n"
+# %ctrl = {{controller}} + "sController"
+# pp %ctrl
+#
+# print "end controller_call\n"
